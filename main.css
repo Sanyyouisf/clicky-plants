@@ -30,3 +30,41 @@ body {
   background-image: linear-gradient(to bottom, #faf2f5, #76d934);
   text-decoration: none;
 }
+
+.planetBox {
+	border: 1px solid black;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+}
+
+.plantsName {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	position: absolute;
+	margin-top: 70px;
+	width: inherit;
+}
+
+.planetImage {
+	width: 200px;
+	height: 200px;
+}
+
+.hidden {
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
