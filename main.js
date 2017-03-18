@@ -42,7 +42,6 @@ var planets = [
 
 plantsButton.addEventListener("mouseenter", function(){
 //when hover over with the mouse execute the function
-// plantsButton.addEventListener("click", function(){
 // when click the button excute the function
 	plantsHolder.innerHTML += "";
 	for (var i=0 ; i<planets.length ;++i ){
@@ -57,11 +56,8 @@ plantsButton.addEventListener("mouseenter", function(){
 		// console.log(newPlanets);
 		plantsHolder.innerHTML += 	newPlanets;
 	}
-
 	console.log(" you hover over the link");
 // console.log("button is pressed");
-
-// plantsHolder.innerHTML = "button is pressed";
 });
 
 // when click in the image with planetImage console it 
@@ -77,6 +73,4 @@ event.target.previousSibling.classList.remove('hidden');
 }
 
 document.body.addEventListener("click" ,showMeMonkey );
-
-getPlanets.addEventListener("mouseenter", writeToDom);
 
